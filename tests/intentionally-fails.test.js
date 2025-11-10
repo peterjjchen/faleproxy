@@ -1,6 +1,6 @@
-// INTENTIONAL: failing test for CI demo. Remove after assignment.
-describe("CI failure demo", () => {
-  it("should fail intentionally", () => {
-    expect(1).toBe(2);
+// Fixed test for CI/CD pipeline
+describe("CI pipeline test", () => {
+  it("should pass for successful CI/CD", () => {
+    expect(1).toBe(1);
   });
 });
